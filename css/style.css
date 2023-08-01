@@ -1,0 +1,56 @@
+:root {
+--main-color:#24353f;
+}
+::placeholder{
+ color: #fff;
+}
+
+
+body {
+ background-color: var(--main-color);
+ font-family:'Titillium Web', sans-serif ;
+}
+  
+
+
+.main-box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.main-box h1{
+    color: #17a2b8;
+    font-family:'Titillium Web', sans-serif
+}
+ 
+input {
+    padding: 8px;
+    outline: none;
+    background-color: var(--main-color);
+    border: 1px solid #fff;
+    caret-color: #fff;
+    color: #fff;
+    
+}
+.btn-outline-info:hover {
+    color: #fff;
+    
+}
+button{
+   letter-spacing: 2px ;
+}
+input:focus {
+    border: 1px solid #80bdff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.welcome{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.succed {
+    color: green;
+}
